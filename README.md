@@ -1,5 +1,8 @@
 # Tic Tac Toe with Tkinter
 #### Video Demo: <https://youtu.be/AK3XruIdmb8?si=yMR1NXzWwYP-UebL>
+
+(This is my final project for [CS50P](https://cs50.harvard.edu/python/) course)
+
 ![Screenshot of startup screen of the application](/images/home_screen.png)
 ![Screenshot of x winning a 3x3 board in the application](/images/x_wins_game.png)
 ![Screenshot of a 5x5 board in the application](/images/5x5_board.png)
@@ -67,4 +70,5 @@ specified size and the user can start playing.
     E.g. `[[0, 1, 2], [3, 4, 5], [6, 7, 8], [0, 3, 6], [1, 4, 7], [2, 5, 8], [0, 4, 8], [2, 4, 6]]` for a 3x3 board where all the tiles are indexed sequentially from `0` to `board_size - 1`
     
 Finally, the main function creates a tkinter window, sets the state of window to "zoomed" to make it full screen when the application is run.
+
 It then creates an instance of `Game` class, and then starts the `mainloop` for tkinter.
